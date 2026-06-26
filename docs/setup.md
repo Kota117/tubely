@@ -5,6 +5,7 @@
 - **[Windows Subsystem for Linux (WSL 2)](https://learn.microsoft.com/en-us/windows/wsl/install) for Windows**: Not required, but ***highly*** recommended. Allows development to be done on linux instead of Windows.
 - **AWS**: An Amazon Web Services (AWS) account is required, though if everything is done correctly, only the [free tier](https://aws.amazon.com/free/) is required.
 - **Go**: Version 1.26+ installed on the local development machine.
+- **[SQLite 3](https://www.sqlite.org/download.html)**: Installed on the local development machine to be able to use the CLI to manually inspect the database.
 
 
 ## One-time Setup Steps
@@ -16,6 +17,14 @@
 - Run the script called `samplesdownload.sh` from the root of the repo to download some sample images and videos into the `samples` directory:
     ```bash
     ./samplesdownload.sh
+    ```
+- With the server running, create a Tubely account by entering the following email and password and clicking "sign up":  
+    Email: `admin@tubely.com`  
+    Password: `password`
+- Install SQLite 3.
+    ```bash
+    sudo apt update
+    sudo apt install sqlite3
     ```
 
 
