@@ -9,4 +9,7 @@
 ## Documentation Links
 
 [Setup](setup.md)  
+[User Interface](ui.md)
+[Architecture](architecture.md)  
+[Database](database.md)  
 [Tidbits](tidbits.md)
