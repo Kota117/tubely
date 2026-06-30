@@ -34,3 +34,5 @@ The two main entities in Tubely are `videos` and `users`. A `user` can have many
 
 Tubely allows users to create a "new draft" - which creates a new video record in the database containing *metadata only*. Thumbnails and video files are uploaded separately after the draft is created.  
 [Creating a video draft](./ui.md#creating-a-video-draft)
+
+Tubely uses the [multipart/form-data](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST#multipart_form_submission) encoding format. This is a way to send multiple pieces of data in a single request and is commonly used for file uploads. It's the "default" way to send files to a server from an HTML form. The `handlerUploadThumbnail` function uses this encoding to store thumbnail data in memory.

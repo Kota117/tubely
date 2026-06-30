@@ -6,6 +6,9 @@
 - Learn how to *stream* video and to keep data usage low and improve performance
 
 
+Much of this documentation has been paraphrased from the lesson content from [Boot.dev](https://www.boot.dev/courses/learn-file-servers-s3-cloudfront-golang).
+
+
 ## Documentation Links
 
 [Setup](setup.md)  
